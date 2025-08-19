@@ -1,10 +1,10 @@
 Package: Atomic3
 Type: Package
-Title: Simple Calculator Package
+Title: A tiny Package for Integration of Multiomic Datasets
 Version: 0.1.0
-Author: Your Name
-Maintainer: Your Name <you@example.com>
-Description: Provides simple calculator functions such as add, subtract, multiply, and divide.
+Author: Diptanil Biswas
+Maintainer: Samsiddhi Bhattacharjee <sb1@nibmg.ac.in>
+Description: Provides the user with tools to mine and integrate large scale datasets
 License: MIT
 Encoding: UTF-8
 LazyData: true
