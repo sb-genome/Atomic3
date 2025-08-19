@@ -4,14 +4,23 @@
 \alias{available_layers}
 \title{Get available multiomic layers}
 \usage{
-available_layers()
+available_layers(base_url = "http://172.15.1.21:8000", timeout = 10)
+}
+\arguments{
+\item{base_url}{Character scalar. Base URL of the API.
+Defaults to \code{"http://172.15.1.21:8000"}.}
+
+\item{timeout}{Numeric scalar. Request timeout in seconds. Default: 10.}
 }
 \value{
-Get the list of available multiomic layers
+A character vector of layer names.
 }
 \description{
-Get available multiomic layers
+Queries the API (via GET) for the list of available multiomic layers.
 }
 \examples{
-available_layers()
+\dontrun{
+  available_layers()                           # localhost default
+  available_layers("http://api.myhost.com")    # custom host
+}
 }
